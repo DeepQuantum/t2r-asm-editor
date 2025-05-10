@@ -1,0 +1,3 @@
+[submodule "t2r-dc-disasm"]
+	path = t2r-dc-disasm
+	url = https://github.com/icemesh/t2r-dc-disasm
