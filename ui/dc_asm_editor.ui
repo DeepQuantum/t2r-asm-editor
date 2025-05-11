@@ -22,13 +22,20 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_2">
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,1">
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="10,1,5">
       <item>
        <widget class="LineAwareTextEdit" name="asmField">
         <property name="font">
          <font>
           <pointsize>12</pointsize>
          </font>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="offsetField">
+        <property name="readOnly">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
@@ -45,7 +52,7 @@
      <x>0</x>
      <y>0</y>
      <width>2055</width>
-     <height>28</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
